@@ -110,7 +110,7 @@ namespace PostgreSQLCopyHelper.Test
             {
                 DateTimeOffset_TimestampTz = new DateTimeOffset(2019, 1, 1, 22, 0, 0, TimeSpan.Zero)
             };
-   
+
             subject.SaveAll(connection, new[] { entity0 });
 
             var result = GetAll();
@@ -632,7 +632,7 @@ namespace PostgreSQLCopyHelper.Test
 
             // TODO: More Useful Test for JSON equality here...
         }
-        
+
         private IList<object[]> GetAll()
         {
             return connection.GetAll("sample", "unit_test");

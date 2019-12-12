@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.gitignore" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.3.0/build/netcoreapp1.0" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/nunit.engine.api.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/nunit.engine.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/NUnit3.TestAdapter.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/NUnit3.TestAdapter.pdb" t="Include" />
+    <e p="$PROJECT_DIR$/../Directory.Build.props" t="Include" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="NuGet.config" t="Include" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="PostgreSQLCopyHelper" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Extensions" t="Include">
+          <e p="ArrayTypeExtensions.cs" t="Include" />
+          <e p="BinaryDataTypeExtensions.cs" t="Include" />
+          <e p="BitStringTypeExtensions.cs" t="Include" />
+          <e p="BooleanTypeExtensions.cs" t="Include" />
+          <e p="CharacterTypeExtensions.cs" t="Include" />
+          <e p="DateTimeTypeExtensions.cs" t="Include" />
+          <e p="JsonTypeExtension.cs" t="Include" />
+          <e p="MonetaryTypeExtensions.cs" t="Include" />
+          <e p="NetworkAddressTypeExtensions.cs" t="Include" />
+          <e p="NumericTypeExtensions.cs" t="Include" />
+          <e p="UUIDTypeExtensions.cs" t="Include" />
+        </e>
+        <e p="IPostgreSQLCopyHelper.cs" t="Include" />
+        <e p="Model" t="Include">
+          <e p="ColumnDefinition.cs" t="Include" />
+          <e p="TableDefinition.cs" t="Include" />
+          <e p="TargetColumn.cs" t="Include" />
+          <e p="TargetTable.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net461" t="Include">
+              <e p="PostgreSQLCopyHelper.AssemblyInfo.cs" t="Include" />
+            </e>
+            <e p="netstandard2.0" t="Include">
+              <e p="PostgreSQLCopyHelper.AssemblyInfo.cs" t="Include" />
+            </e>
+            <e p="netstandard2.1" t="Include">
+              <e p="PostgreSQLCopyHelper.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PostgreSQLCopyHelper.cs" t="Include" />
+        <e p="PostgreSQLCopyHelper.csproj" t="IncludeRecursive" />
+        <e p="PostgreSQLCopyHelper.csproj.DotSettings" t="Include" />
+        <e p="Utils" t="Include">
+          <e p="NoSynchronizationContextScope.cs" t="Include" />
+          <e p="NpgsqlUtils.cs" t="Include" />
+          <e p="StringExtensions.cs" t="Include" />
+        </e>
+      </e>
+      <e p="PostgreSQLCopyHelper.sln" t="IncludeFlat" />
+      <e p="PostgreSQLCopyHelper.Test" t="IncludeRecursive">
+        <e p="ArrayTypesTest.cs" t="Include" />
+        <e p="BasicDataTypesTests.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Extensions" t="Include">
+          <e p="NpgsqlExtensions.cs" t="Include" />
+        </e>
+        <e p="GlobalSuppressions.cs" t="Include" />
+        <e p="Issues" t="Include">
+          <e p="Issue1_QuotingTest.cs" t="Include" />
+          <e p="Issue2_MixedCaseEntity_Test.cs" t="Include" />
+          <e p="Issue53_AutoIncrementingForeignKeys.cs" t="Include" />
+          <e p="Issue56_AsyncEnumerable_Test.cs" t="Include" />
+          <e p="Issue58_CancelRequest_Test.cs" t="Include" />
+          <e p="Issue60_TargetTableTest.cs" t="Include" />
+        </e>
+        <e p="NullableBasicDataTypesTest.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="PostgreSQLCopyHelper.Test.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PostgreSQLCopyHelper.Test.csproj" t="IncludeRecursive" />
+        <e p="TransactionalTestBase.cs" t="Include" />
+      </e>
+      <e p="Solution Items" t="Include" />
+    </e>
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/resharper-host/local/Transient/ReSharperHost/v201/SolutionCaches/_PostgreSQLCopyHelper.-721645135.00" t="ExcludeRecursive" />
+  </component>
+</project>
